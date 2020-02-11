@@ -50,3 +50,6 @@ waypoints[0]["lon"] = -130
 for i in waypoints:
     for y in i:
         print(i[y])
+
+for i in waypoints:
+    print(i["name"], i["lat"], i["lon"])
